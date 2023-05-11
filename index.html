@@ -26,7 +26,13 @@
                     <td>1</td>
                     <td >
                         <div class="input-group">
-                            <input type="text" class="input">
+                            <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" class="input">
+                            <datalist id="ice-cream-flavors">
+                                <option value="Coconut">Coconut</option>
+                                <option value="Mint">Mint</option>
+                                <option value="Strawberry">Strawberry</option>
+                                <option value="Vanilla">Vanilla</option>
+                            </datalist>
                             <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                             </svg> 
@@ -34,45 +40,13 @@
                     </td>
                     <td >
                         <div class="input-group">
-                            <input type="text" class="input">
-                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                            </svg>      
-                        </div>                    
-                    </td>
-                    <td><button>Hapus</button></td>
-                </tr>
-            </tbody>
-        </table>
-        <h3 class="sub-title">
-            Diagnosa banding
-        </h3>
-        <div class="plus-line">
-            Tambah Baris
-        </div>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>NO</th>
-                    <th>DIAGNOSA*</th>
-                    <th>KODE ICD 10</th>
-                    <th>AKSI</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td >
-                        <div class="input-group">
-                            <input type="text" class="input">
-                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                            </svg> 
-                        </div>                         
-                    </td>
-                    <td >
-                        <div class="input-group">
-                            <input type="text" class="input">
+                            <input list="ice-cream-flavors" type="text" class="input" id="second-input">
+                            <datalist id="ice-cream-flavors">
+                                <option value="Coconut">Coconut</option>
+                                <option value="Mint">Mint</option>
+                                <option value="Strawberry">Strawberry</option>
+                                <option value="Vanilla">Vanilla</option>
+                            </datalist>
                             <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                             </svg>      
@@ -83,5 +57,6 @@
             </tbody>
         </table>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
